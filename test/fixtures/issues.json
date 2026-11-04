@@ -1,0 +1,2246 @@
+[
+  {
+    "key": "DEMO-101",
+    "fields": {
+      "summary": "Badge reader sync drops events after reconnect",
+      "issuetype": {
+        "name": "Bug"
+      },
+      "status": {
+        "name": "To Do"
+      },
+      "priority": {
+        "name": "Highest"
+      },
+      "assignee": {
+        "displayName": "Priya Shah"
+      },
+      "reporter": {
+        "displayName": "Dana Okafor"
+      },
+      "labels": [],
+      "components": [
+        {
+          "name": "Badge Reader"
+        }
+      ],
+      "created": "2026-01-10T00:00:00.000+0000",
+      "updated": "2026-01-20T10:00:00.000+0000",
+      "description": null
+    }
+  },
+  {
+    "key": "DEMO-102",
+    "fields": {
+      "summary": "Add SSO audit log export",
+      "issuetype": {
+        "name": "Story"
+      },
+      "status": {
+        "name": "In Progress"
+      },
+      "priority": {
+        "name": "High"
+      },
+      "assignee": {
+        "displayName": "Marcus Lee"
+      },
+      "reporter": {
+        "displayName": "Tom Alvarez"
+      },
+      "labels": [
+        "security"
+      ],
+      "components": [
+        {
+          "name": "Dashboard"
+        },
+        {
+          "name": "Mobile App"
+        }
+      ],
+      "created": "2026-02-11T01:03:00.000+0000",
+      "updated": "2026-02-21T11:02:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-02-11."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-103",
+    "fields": {
+      "summary": "Visitor check-in kiosk freezes on camera permission denial",
+      "issuetype": {
+        "name": "Task"
+      },
+      "status": {
+        "name": "Blocked"
+      },
+      "priority": {
+        "name": "Medium"
+      },
+      "assignee": {
+        "displayName": "Dana Okafor"
+      },
+      "reporter": {
+        "displayName": "Yuki Tanaka"
+      },
+      "labels": [
+        "needs-triage",
+        "tech-debt"
+      ],
+      "components": [],
+      "created": "2026-03-12T02:00:00.000+0000",
+      "updated": "2026-03-22T12:04:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-03-12."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-104",
+    "fields": {
+      "summary": "Access control panel heartbeat missing timezone offset",
+      "issuetype": {
+        "name": "Epic"
+      },
+      "status": {
+        "name": "Done"
+      },
+      "priority": {
+        "name": "Low"
+      },
+      "assignee": {
+        "displayName": "Tom Alvarez"
+      },
+      "reporter": {
+        "displayName": "Sofia Reyes"
+      },
+      "labels": [],
+      "components": [
+        {
+          "name": "Mobile App"
+        }
+      ],
+      "created": "2026-04-13T03:03:00.000+0000",
+      "updated": "2026-04-23T13:00:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-04-13."
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Steps to reproduce logged."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Affects multiple sites."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-105",
+    "fields": {
+      "summary": "Add bulk revoke for terminated employee badges",
+      "issuetype": {
+        "name": "Bug"
+      },
+      "status": {
+        "name": "To Do"
+      },
+      "priority": {
+        "name": "Lowest"
+      },
+      "assignee": {
+        "displayName": "Yuki Tanaka"
+      },
+      "reporter": {
+        "displayName": "Ben Carter"
+      },
+      "labels": [
+        "tech-debt"
+      ],
+      "components": [
+        {
+          "name": "Reporting"
+        },
+        {
+          "name": "API"
+        }
+      ],
+      "created": "2026-05-14T04:00:00.000+0000",
+      "updated": "2026-05-24T14:02:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-05-14."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-106",
+    "fields": {
+      "summary": "Incident timeline UI does not paginate past 200 events",
+      "issuetype": {
+        "name": "Story"
+      },
+      "status": {
+        "name": "In Progress"
+      },
+      "priority": null,
+      "assignee": {
+        "displayName": "Sofia Reyes"
+      },
+      "reporter": {
+        "displayName": "Lena Novak"
+      },
+      "labels": [
+        "perf",
+        "q4-pick"
+      ],
+      "components": [],
+      "created": "2026-06-15T05:03:00.000+0000",
+      "updated": "2026-06-25T15:04:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-06-15."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "See attached logs."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "cc security team"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-107",
+    "fields": {
+      "summary": "Export watchlist alerts to CSV truncates unicode names",
+      "issuetype": {
+        "name": "Task"
+      },
+      "status": {
+        "name": "Blocked"
+      },
+      "priority": {
+        "name": "Highest"
+      },
+      "assignee": {
+        "displayName": "Ben Carter"
+      },
+      "reporter": {
+        "displayName": "Priya Shah"
+      },
+      "labels": [],
+      "components": [
+        {
+          "name": "API"
+        }
+      ],
+      "created": "2026-07-16T06:00:00.000+0000",
+      "updated": "2026-07-26T16:00:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-07-16."
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Steps to reproduce logged."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Affects multiple sites."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-108",
+    "fields": {
+      "summary": "Mobile app push notifications delayed on Android 15",
+      "issuetype": {
+        "name": "Epic"
+      },
+      "status": {
+        "name": "Done"
+      },
+      "priority": {
+        "name": "High"
+      },
+      "assignee": {
+        "displayName": "Lena Novak"
+      },
+      "reporter": {
+        "displayName": "Marcus Lee"
+      },
+      "labels": [
+        "q4-pick"
+      ],
+      "components": [
+        {
+          "name": "Badge Reader"
+        },
+        {
+          "name": "Auth"
+        }
+      ],
+      "created": "2026-08-17T07:03:00.000+0000",
+      "updated": "2026-08-27T17:02:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-08-17."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-109",
+    "fields": {
+      "summary": "Add support for multi-site credential provisioning",
+      "issuetype": {
+        "name": "Bug"
+      },
+      "status": {
+        "name": "To Do"
+      },
+      "priority": {
+        "name": "Medium"
+      },
+      "assignee": null,
+      "reporter": {
+        "displayName": "Dana Okafor"
+      },
+      "labels": [
+        "security",
+        "customer-reported"
+      ],
+      "components": [],
+      "created": "2026-09-18T08:00:00.000+0000",
+      "updated": "2026-09-28T18:04:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-09-18."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-110",
+    "fields": {
+      "summary": "Duress code entry should not appear in audit log plaintext",
+      "issuetype": {
+        "name": "Story"
+      },
+      "status": {
+        "name": "In Progress"
+      },
+      "priority": {
+        "name": "Low"
+      },
+      "assignee": {
+        "displayName": "Priya Shah"
+      },
+      "reporter": {
+        "displayName": "Tom Alvarez"
+      },
+      "labels": [],
+      "components": [
+        {
+          "name": "Auth"
+        }
+      ],
+      "created": "2026-01-10T00:03:00.000+0000",
+      "updated": "2026-01-20T10:00:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-01-10."
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Steps to reproduce logged."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Affects multiple sites."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-111",
+    "fields": {
+      "summary": "Dashboard widget crashes when camera feed is offline",
+      "issuetype": {
+        "name": "Task"
+      },
+      "status": {
+        "name": "Blocked"
+      },
+      "priority": {
+        "name": "Lowest"
+      },
+      "assignee": {
+        "displayName": "Marcus Lee"
+      },
+      "reporter": {
+        "displayName": "Yuki Tanaka"
+      },
+      "labels": [
+        "customer-reported"
+      ],
+      "components": [
+        {
+          "name": "Mobile App"
+        },
+        {
+          "name": "Integrations"
+        }
+      ],
+      "created": "2026-02-11T01:00:00.000+0000",
+      "updated": "2026-02-21T11:02:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-02-11."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "See attached logs."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "cc security team"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-112",
+    "fields": {
+      "summary": "Add role-based access for compliance reports",
+      "issuetype": {
+        "name": "Epic"
+      },
+      "status": {
+        "name": "Done"
+      },
+      "priority": null,
+      "assignee": {
+        "displayName": "Dana Okafor"
+      },
+      "reporter": {
+        "displayName": "Sofia Reyes"
+      },
+      "labels": [
+        "tech-debt",
+        "onboarding"
+      ],
+      "components": [],
+      "created": "2026-03-12T02:03:00.000+0000",
+      "updated": "2026-03-22T12:04:00.000+0000",
+      "description": null
+    }
+  },
+  {
+    "key": "DEMO-113",
+    "fields": {
+      "summary": "Tailgating detection false positive rate too high at lobby doors",
+      "issuetype": {
+        "name": "Bug"
+      },
+      "status": {
+        "name": "To Do"
+      },
+      "priority": {
+        "name": "Highest"
+      },
+      "assignee": {
+        "displayName": "Tom Alvarez"
+      },
+      "reporter": {
+        "displayName": "Ben Carter"
+      },
+      "labels": [],
+      "components": [
+        {
+          "name": "Integrations"
+        }
+      ],
+      "created": "2026-04-13T03:00:00.000+0000",
+      "updated": "2026-04-23T13:00:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-04-13."
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Steps to reproduce logged."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Affects multiple sites."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-114",
+    "fields": {
+      "summary": "API rate limiting returns wrong Retry-After header",
+      "issuetype": {
+        "name": "Story"
+      },
+      "status": {
+        "name": "In Progress"
+      },
+      "priority": {
+        "name": "High"
+      },
+      "assignee": {
+        "displayName": "Yuki Tanaka"
+      },
+      "reporter": {
+        "displayName": "Lena Novak"
+      },
+      "labels": [
+        "onboarding"
+      ],
+      "components": [
+        {
+          "name": "API"
+        },
+        {
+          "name": "Dashboard"
+        }
+      ],
+      "created": "2026-05-14T04:03:00.000+0000",
+      "updated": "2026-05-24T14:02:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-05-14."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-115",
+    "fields": {
+      "summary": "Add webhook for badge deactivation events",
+      "issuetype": {
+        "name": "Task"
+      },
+      "status": {
+        "name": "Blocked"
+      },
+      "priority": {
+        "name": "Medium"
+      },
+      "assignee": {
+        "displayName": "Sofia Reyes"
+      },
+      "reporter": {
+        "displayName": "Priya Shah"
+      },
+      "labels": [
+        "q4-pick",
+        "needs-triage"
+      ],
+      "components": [],
+      "created": "2026-06-15T05:00:00.000+0000",
+      "updated": "2026-06-25T15:04:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-06-15."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-116",
+    "fields": {
+      "summary": "Guard tour checkpoints out of order in nightly report",
+      "issuetype": {
+        "name": "Epic"
+      },
+      "status": {
+        "name": "Done"
+      },
+      "priority": {
+        "name": "Low"
+      },
+      "assignee": {
+        "displayName": "Ben Carter"
+      },
+      "reporter": {
+        "displayName": "Marcus Lee"
+      },
+      "labels": [],
+      "components": [
+        {
+          "name": "Dashboard"
+        }
+      ],
+      "created": "2026-07-16T06:03:00.000+0000",
+      "updated": "2026-07-26T16:00:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-07-16."
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Steps to reproduce logged."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Affects multiple sites."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "See attached logs."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "cc security team"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-117",
+    "fields": {
+      "summary": "Visitor pre-registration email link expires too quickly",
+      "issuetype": {
+        "name": "Bug"
+      },
+      "status": {
+        "name": "To Do"
+      },
+      "priority": {
+        "name": "Lowest"
+      },
+      "assignee": {
+        "displayName": "Lena Novak"
+      },
+      "reporter": {
+        "displayName": "Dana Okafor"
+      },
+      "labels": [
+        "needs-triage"
+      ],
+      "components": [
+        {
+          "name": "Auth"
+        },
+        {
+          "name": "Reporting"
+        }
+      ],
+      "created": "2026-08-17T07:00:00.000+0000",
+      "updated": "2026-08-27T17:02:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-08-17."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-118",
+    "fields": {
+      "summary": "Add dark mode to incident response console",
+      "issuetype": {
+        "name": "Story"
+      },
+      "status": {
+        "name": "In Progress"
+      },
+      "priority": null,
+      "assignee": null,
+      "reporter": {
+        "displayName": "Tom Alvarez"
+      },
+      "labels": [
+        "customer-reported",
+        "perf"
+      ],
+      "components": [],
+      "created": "2026-09-18T08:03:00.000+0000",
+      "updated": "2026-09-28T18:04:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-09-18."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-119",
+    "fields": {
+      "summary": "Elevator integration loses floor mapping after firmware update",
+      "issuetype": {
+        "name": "Task"
+      },
+      "status": {
+        "name": "Blocked"
+      },
+      "priority": {
+        "name": "Highest"
+      },
+      "assignee": {
+        "displayName": "Priya Shah"
+      },
+      "reporter": {
+        "displayName": "Yuki Tanaka"
+      },
+      "labels": [],
+      "components": [
+        {
+          "name": "Reporting"
+        }
+      ],
+      "created": "2026-01-10T00:00:00.000+0000",
+      "updated": "2026-01-20T10:00:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-01-10."
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Steps to reproduce logged."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Affects multiple sites."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-120",
+    "fields": {
+      "summary": "Add export-to-PDF for site audit summary",
+      "issuetype": {
+        "name": "Epic"
+      },
+      "status": {
+        "name": "Done"
+      },
+      "priority": {
+        "name": "High"
+      },
+      "assignee": {
+        "displayName": "Marcus Lee"
+      },
+      "reporter": {
+        "displayName": "Sofia Reyes"
+      },
+      "labels": [
+        "perf"
+      ],
+      "components": [
+        {
+          "name": "Integrations"
+        },
+        {
+          "name": "Badge Reader"
+        }
+      ],
+      "created": "2026-02-11T01:03:00.000+0000",
+      "updated": "2026-02-21T11:02:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-02-11."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-121",
+    "fields": {
+      "summary": "Alarm panel reconnect storm floods the event queue",
+      "issuetype": {
+        "name": "Bug"
+      },
+      "status": {
+        "name": "To Do"
+      },
+      "priority": {
+        "name": "Medium"
+      },
+      "assignee": {
+        "displayName": "Dana Okafor"
+      },
+      "reporter": {
+        "displayName": "Ben Carter"
+      },
+      "labels": [
+        "onboarding",
+        "security"
+      ],
+      "components": [],
+      "created": "2026-03-12T02:00:00.000+0000",
+      "updated": "2026-03-22T12:04:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-03-12."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "See attached logs."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "cc security team"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-122",
+    "fields": {
+      "summary": "Add configurable retention policy for video clips",
+      "issuetype": {
+        "name": "Story"
+      },
+      "status": {
+        "name": "In Progress"
+      },
+      "priority": {
+        "name": "Low"
+      },
+      "assignee": {
+        "displayName": "Tom Alvarez"
+      },
+      "reporter": {
+        "displayName": "Lena Novak"
+      },
+      "labels": [],
+      "components": [
+        {
+          "name": "Badge Reader"
+        }
+      ],
+      "created": "2026-04-13T03:03:00.000+0000",
+      "updated": "2026-04-23T13:00:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-04-13."
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Steps to reproduce logged."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Affects multiple sites."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-123",
+    "fields": {
+      "summary": "Search in alerts page ignores quoted phrases",
+      "issuetype": {
+        "name": "Task"
+      },
+      "status": {
+        "name": "Blocked"
+      },
+      "priority": {
+        "name": "Lowest"
+      },
+      "assignee": {
+        "displayName": "Yuki Tanaka"
+      },
+      "reporter": {
+        "displayName": "Priya Shah"
+      },
+      "labels": [
+        "security"
+      ],
+      "components": [
+        {
+          "name": "Dashboard"
+        },
+        {
+          "name": "Mobile App"
+        }
+      ],
+      "created": "2026-05-14T04:00:00.000+0000",
+      "updated": "2026-05-24T14:02:00.000+0000",
+      "description": null
+    }
+  },
+  {
+    "key": "DEMO-124",
+    "fields": {
+      "summary": "Add SCIM provisioning for new hires",
+      "issuetype": {
+        "name": "Epic"
+      },
+      "status": {
+        "name": "Done"
+      },
+      "priority": null,
+      "assignee": {
+        "displayName": "Sofia Reyes"
+      },
+      "reporter": {
+        "displayName": "Marcus Lee"
+      },
+      "labels": [
+        "needs-triage",
+        "tech-debt"
+      ],
+      "components": [],
+      "created": "2026-06-15T05:03:00.000+0000",
+      "updated": "2026-06-25T15:04:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-06-15."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-125",
+    "fields": {
+      "summary": "Badge printer template editor loses alignment on save",
+      "issuetype": {
+        "name": "Bug"
+      },
+      "status": {
+        "name": "To Do"
+      },
+      "priority": {
+        "name": "Highest"
+      },
+      "assignee": {
+        "displayName": "Ben Carter"
+      },
+      "reporter": {
+        "displayName": "Dana Okafor"
+      },
+      "labels": [],
+      "components": [
+        {
+          "name": "Mobile App"
+        }
+      ],
+      "created": "2026-07-16T06:00:00.000+0000",
+      "updated": "2026-07-26T16:00:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-07-16."
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Steps to reproduce logged."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Affects multiple sites."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-126",
+    "fields": {
+      "summary": "Add two-person rule enforcement for server room access",
+      "issuetype": {
+        "name": "Story"
+      },
+      "status": {
+        "name": "In Progress"
+      },
+      "priority": {
+        "name": "High"
+      },
+      "assignee": {
+        "displayName": "Lena Novak"
+      },
+      "reporter": {
+        "displayName": "Tom Alvarez"
+      },
+      "labels": [
+        "tech-debt"
+      ],
+      "components": [
+        {
+          "name": "Reporting"
+        },
+        {
+          "name": "API"
+        }
+      ],
+      "created": "2026-08-17T07:03:00.000+0000",
+      "updated": "2026-08-27T17:02:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-08-17."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "See attached logs."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "cc security team"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-127",
+    "fields": {
+      "summary": "Reporting export job times out for date ranges over 90 days",
+      "issuetype": {
+        "name": "Task"
+      },
+      "status": {
+        "name": "Blocked"
+      },
+      "priority": {
+        "name": "Medium"
+      },
+      "assignee": null,
+      "reporter": {
+        "displayName": "Yuki Tanaka"
+      },
+      "labels": [
+        "perf",
+        "q4-pick"
+      ],
+      "components": [],
+      "created": "2026-09-18T08:00:00.000+0000",
+      "updated": "2026-09-28T18:04:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-09-18."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-128",
+    "fields": {
+      "summary": "Add Slack notification integration for critical alerts",
+      "issuetype": {
+        "name": "Epic"
+      },
+      "status": {
+        "name": "Done"
+      },
+      "priority": {
+        "name": "Low"
+      },
+      "assignee": {
+        "displayName": "Priya Shah"
+      },
+      "reporter": {
+        "displayName": "Sofia Reyes"
+      },
+      "labels": [],
+      "components": [
+        {
+          "name": "API"
+        }
+      ],
+      "created": "2026-01-10T00:03:00.000+0000",
+      "updated": "2026-01-20T10:00:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-01-10."
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Steps to reproduce logged."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Affects multiple sites."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-129",
+    "fields": {
+      "summary": "Camera health check does not detect frozen frames",
+      "issuetype": {
+        "name": "Bug"
+      },
+      "status": {
+        "name": "To Do"
+      },
+      "priority": {
+        "name": "Lowest"
+      },
+      "assignee": {
+        "displayName": "Marcus Lee"
+      },
+      "reporter": {
+        "displayName": "Ben Carter"
+      },
+      "labels": [
+        "q4-pick"
+      ],
+      "components": [
+        {
+          "name": "Badge Reader"
+        },
+        {
+          "name": "Auth"
+        }
+      ],
+      "created": "2026-02-11T01:00:00.000+0000",
+      "updated": "2026-02-21T11:02:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-02-11."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-130",
+    "fields": {
+      "summary": "Add bulk import for access groups via CSV",
+      "issuetype": {
+        "name": "Story"
+      },
+      "status": {
+        "name": "In Progress"
+      },
+      "priority": null,
+      "assignee": {
+        "displayName": "Dana Okafor"
+      },
+      "reporter": {
+        "displayName": "Lena Novak"
+      },
+      "labels": [
+        "security",
+        "customer-reported"
+      ],
+      "components": [],
+      "created": "2026-03-12T02:03:00.000+0000",
+      "updated": "2026-03-22T12:04:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-03-12."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-131",
+    "fields": {
+      "summary": "Session timeout logs user out mid-edit without warning",
+      "issuetype": {
+        "name": "Task"
+      },
+      "status": {
+        "name": "Blocked"
+      },
+      "priority": {
+        "name": "Highest"
+      },
+      "assignee": {
+        "displayName": "Tom Alvarez"
+      },
+      "reporter": {
+        "displayName": "Priya Shah"
+      },
+      "labels": [],
+      "components": [
+        {
+          "name": "Auth"
+        }
+      ],
+      "created": "2026-04-13T03:00:00.000+0000",
+      "updated": "2026-04-23T13:00:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-04-13."
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Steps to reproduce logged."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Affects multiple sites."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "See attached logs."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "cc security team"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-132",
+    "fields": {
+      "summary": "Add geofencing alert for mustered employees",
+      "issuetype": {
+        "name": "Epic"
+      },
+      "status": {
+        "name": "Done"
+      },
+      "priority": {
+        "name": "High"
+      },
+      "assignee": {
+        "displayName": "Yuki Tanaka"
+      },
+      "reporter": {
+        "displayName": "Marcus Lee"
+      },
+      "labels": [
+        "customer-reported"
+      ],
+      "components": [
+        {
+          "name": "Mobile App"
+        },
+        {
+          "name": "Integrations"
+        }
+      ],
+      "created": "2026-05-14T04:03:00.000+0000",
+      "updated": "2026-05-24T14:02:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-05-14."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-133",
+    "fields": {
+      "summary": "Lobby tablet kiosk language switch does not persist",
+      "issuetype": {
+        "name": "Bug"
+      },
+      "status": {
+        "name": "To Do"
+      },
+      "priority": {
+        "name": "Medium"
+      },
+      "assignee": {
+        "displayName": "Sofia Reyes"
+      },
+      "reporter": {
+        "displayName": "Dana Okafor"
+      },
+      "labels": [
+        "tech-debt",
+        "onboarding"
+      ],
+      "components": [],
+      "created": "2026-06-15T05:00:00.000+0000",
+      "updated": "2026-06-25T15:04:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-06-15."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-134",
+    "fields": {
+      "summary": "Add audit trail diff view for policy changes",
+      "issuetype": {
+        "name": "Story"
+      },
+      "status": {
+        "name": "In Progress"
+      },
+      "priority": {
+        "name": "Low"
+      },
+      "assignee": {
+        "displayName": "Ben Carter"
+      },
+      "reporter": {
+        "displayName": "Tom Alvarez"
+      },
+      "labels": [],
+      "components": [
+        {
+          "name": "Integrations"
+        }
+      ],
+      "created": "2026-07-16T06:03:00.000+0000",
+      "updated": "2026-07-26T16:00:00.000+0000",
+      "description": null
+    }
+  },
+  {
+    "key": "DEMO-135",
+    "fields": {
+      "summary": "Door forced-open alarm delayed by 30 seconds on VPN link",
+      "issuetype": {
+        "name": "Task"
+      },
+      "status": {
+        "name": "Blocked"
+      },
+      "priority": {
+        "name": "Lowest"
+      },
+      "assignee": {
+        "displayName": "Lena Novak"
+      },
+      "reporter": {
+        "displayName": "Yuki Tanaka"
+      },
+      "labels": [
+        "onboarding"
+      ],
+      "components": [
+        {
+          "name": "API"
+        },
+        {
+          "name": "Dashboard"
+        }
+      ],
+      "created": "2026-08-17T07:00:00.000+0000",
+      "updated": "2026-08-27T17:02:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-08-17."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-136",
+    "fields": {
+      "summary": "Add customizable dashboard for regional security managers",
+      "issuetype": {
+        "name": "Epic"
+      },
+      "status": {
+        "name": "Done"
+      },
+      "priority": null,
+      "assignee": null,
+      "reporter": {
+        "displayName": "Sofia Reyes"
+      },
+      "labels": [
+        "q4-pick",
+        "needs-triage"
+      ],
+      "components": [],
+      "created": "2026-09-18T08:03:00.000+0000",
+      "updated": "2026-09-28T18:04:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-09-18."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "See attached logs."
+              },
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "cc security team"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-137",
+    "fields": {
+      "summary": "User management page slow with 10k+ employees",
+      "issuetype": {
+        "name": "Bug"
+      },
+      "status": {
+        "name": "To Do"
+      },
+      "priority": {
+        "name": "Highest"
+      },
+      "assignee": {
+        "displayName": "Priya Shah"
+      },
+      "reporter": {
+        "displayName": "Ben Carter"
+      },
+      "labels": [],
+      "components": [
+        {
+          "name": "Dashboard"
+        }
+      ],
+      "created": "2026-01-10T00:00:00.000+0000",
+      "updated": "2026-01-20T10:00:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-01-10."
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Steps to reproduce logged."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Affects multiple sites."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-138",
+    "fields": {
+      "summary": "Add automatic badge expiration for contractors",
+      "issuetype": {
+        "name": "Story"
+      },
+      "status": {
+        "name": "In Progress"
+      },
+      "priority": {
+        "name": "High"
+      },
+      "assignee": {
+        "displayName": "Marcus Lee"
+      },
+      "reporter": {
+        "displayName": "Lena Novak"
+      },
+      "labels": [
+        "needs-triage"
+      ],
+      "components": [
+        {
+          "name": "Auth"
+        },
+        {
+          "name": "Reporting"
+        }
+      ],
+      "created": "2026-02-11T01:03:00.000+0000",
+      "updated": "2026-02-21T11:02:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-02-11."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-139",
+    "fields": {
+      "summary": "Report scheduler sends duplicate emails on daylight saving change",
+      "issuetype": {
+        "name": "Task"
+      },
+      "status": {
+        "name": "Blocked"
+      },
+      "priority": {
+        "name": "Medium"
+      },
+      "assignee": {
+        "displayName": "Dana Okafor"
+      },
+      "reporter": {
+        "displayName": "Priya Shah"
+      },
+      "labels": [
+        "customer-reported",
+        "perf"
+      ],
+      "components": [],
+      "created": "2026-03-12T02:00:00.000+0000",
+      "updated": "2026-03-22T12:04:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-03-12."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": "DEMO-140",
+    "fields": {
+      "summary": "Add API endpoint for real-time occupancy counts",
+      "issuetype": {
+        "name": "Epic"
+      },
+      "status": {
+        "name": "Done"
+      },
+      "priority": {
+        "name": "Low"
+      },
+      "assignee": {
+        "displayName": "Tom Alvarez"
+      },
+      "reporter": {
+        "displayName": "Marcus Lee"
+      },
+      "labels": [],
+      "components": [
+        {
+          "name": "Reporting"
+        }
+      ],
+      "created": "2026-04-13T03:03:00.000+0000",
+      "updated": "2026-04-23T13:00:00.000+0000",
+      "description": {
+        "type": "doc",
+        "version": 1,
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Observed in production on 2026-04-13."
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Steps to reproduce logged."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Affects multiple sites."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

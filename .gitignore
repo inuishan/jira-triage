@@ -1,0 +1,28 @@
+node_modules/
+web/dist/
+coverage/
+
+# Local database: contains cached real Jira ticket data. Never commit.
+# openDb() creates data/ on demand; data/.gitkeep keeps the directory in the repo.
+data/*.db
+data/*.db-*
+data/*
+!data/.gitkeep
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Deploy runtime state (PID file, logs written by scripts/deploy.sh)
+.deploy/
+
+# Logs and OS / editor noise
+*.log
+.DS_Store
+
+# Local tooling state
+**/.claude/
+**/.cc-writes/

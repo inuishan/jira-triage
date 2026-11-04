@@ -1,0 +1,274 @@
+{
+  "key": "DEMO-101",
+  "names": {
+    "customfield_10020": "Sprint",
+    "customfield_10016": "Story Points",
+    "customfield_10030": "Team",
+    "customfield_10008": "Epic Link",
+    "customfield_10040": "Cascading Select",
+    "customfield_10050": "Approvers",
+    "customfield_10019": "Rank",
+    "customfield_10060": "Business Value",
+    "customfield_10000": "Development"
+  },
+  "fields": {
+    "summary": "Badge reader sync drops events after reconnect",
+    "issuetype": { "name": "Bug" },
+    "status": { "name": "To Do", "statusCategory": { "key": "new" } },
+    "priority": { "name": "Highest" },
+    "resolution": null,
+    "resolutiondate": null,
+    "duedate": "2026-02-01",
+    "assignee": { "displayName": "Priya Shah", "accountId": "acc-priya" },
+    "reporter": { "displayName": "Dana Okafor", "accountId": "acc-dana" },
+    "creator": { "displayName": "Dana Okafor", "accountId": "acc-dana" },
+    "labels": [],
+    "components": [{ "name": "Badge Reader" }],
+    "fixVersions": [{ "name": "v4.2" }],
+    "versions": [{ "name": "v4.0" }],
+    "created": "2026-01-10T00:00:00.000+0000",
+    "updated": "2026-01-20T10:00:00.000+0000",
+    "environment": "Affects production badge readers model X200 running firmware 3.4.",
+    "timetracking": { "originalEstimate": "3d", "remainingEstimate": "1d", "timeSpent": "2d" },
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        { "type": "heading", "attrs": { "level": 2 }, "content": [{ "type": "text", "text": "Summary" }] },
+        {
+          "type": "paragraph",
+          "content": [
+            { "type": "text", "text": "The badge reader " },
+            { "type": "text", "text": "drops", "marks": [{ "type": "strong" }] },
+            { "type": "text", "text": " events after a " },
+            { "type": "text", "text": "reconnect", "marks": [{ "type": "em" }] },
+            { "type": "text", "text": ", especially when " },
+            { "type": "text", "text": "retryCount", "marks": [{ "type": "code" }] },
+            { "type": "text", "text": " exceeds 3. See " },
+            { "type": "text", "text": "the runbook", "marks": [{ "type": "link", "attrs": { "href": "https://example.com/runbook" } }] },
+            { "type": "text", "text": " for details." }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Affects firmware 3.4 and below" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Does not affect kiosk readers" }] }] }
+          ]
+        },
+        {
+          "type": "orderedList",
+          "content": [
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Disconnect reader" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Reconnect reader" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Observe dropped events" }] }] }
+          ]
+        },
+        {
+          "type": "codeBlock",
+          "attrs": { "language": "js" },
+          "content": [{ "type": "text", "text": "if (retryCount > 3) {\n  dropEvent();\n}" }]
+        },
+        {
+          "type": "table",
+          "attrs": { "isNumberColumnEnabled": false, "layout": "default" },
+          "content": [
+            {
+              "type": "tableRow",
+              "content": [
+                { "type": "tableHeader", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Firmware" }] }] },
+                { "type": "tableHeader", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Affected" }] }] },
+                { "type": "tableHeader", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Notes" }] }] }
+              ]
+            },
+            {
+              "type": "tableRow",
+              "content": [
+                { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "3.4" }] }] },
+                { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Yes" }] }] },
+                { "type": "tableCell", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Confirmed in lab" }] }] }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "attrs": { "panelType": "info" },
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                { "type": "text", "text": "Reported by " },
+                { "type": "mention", "attrs": { "id": "acc-dana", "text": "@Dana Okafor" } },
+                { "type": "text", "text": " " },
+                { "type": "emoji", "attrs": { "shortName": ":warning:", "text": "⚠️" } }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [{ "type": "inlineCard", "attrs": { "url": "https://example.atlassian.net/browse/DEMO-110" } }]
+        },
+        {
+          "type": "mediaSingle",
+          "attrs": { "layout": "center" },
+          "content": [
+            { "type": "media", "attrs": { "type": "file", "id": "8f14e45f-ceea-467e-bd3b-0123456789ab", "alt": "screenshot.png", "collection": "" } }
+          ]
+        }
+      ]
+    },
+    "parent": {
+      "key": "DEMO-100",
+      "fields": {
+        "summary": "Badge reader platform epic",
+        "status": { "name": "In Progress", "statusCategory": { "key": "indeterminate" } },
+        "priority": { "name": "High" },
+        "issuetype": { "name": "Epic" }
+      }
+    },
+    "subtasks": [
+      {
+        "key": "DEMO-101-1",
+        "fields": {
+          "summary": "Investigate reconnect logic",
+          "status": { "name": "To Do", "statusCategory": { "key": "new" } },
+          "priority": { "name": "Medium" },
+          "issuetype": { "name": "Sub-task" }
+        }
+      },
+      {
+        "key": "DEMO-101-2",
+        "fields": {
+          "summary": "Add retry backoff",
+          "status": { "name": "Done", "statusCategory": { "key": "done" } },
+          "priority": { "name": "Medium" },
+          "issuetype": { "name": "Sub-task" }
+        }
+      }
+    ],
+    "issuelinks": [
+      {
+        "id": "20001",
+        "type": { "inward": "is blocked by", "outward": "blocks" },
+        "outwardIssue": {
+          "key": "DEMO-110",
+          "fields": {
+            "summary": "Firmware update rollout",
+            "status": { "name": "To Do", "statusCategory": { "key": "new" } },
+            "priority": { "name": "High" },
+            "issuetype": { "name": "Task" }
+          }
+        }
+      },
+      {
+        "id": "20002",
+        "type": { "inward": "is blocked by", "outward": "blocks" },
+        "inwardIssue": {
+          "key": "DEMO-111",
+          "fields": {
+            "summary": "Reader hardware recall",
+            "status": { "name": "In Progress", "statusCategory": { "key": "indeterminate" } },
+            "priority": { "name": "Highest" },
+            "issuetype": { "name": "Bug" }
+          }
+        }
+      },
+      {
+        "id": "20003",
+        "type": { "inward": "relates to", "outward": "relates to" },
+        "outwardIssue": {
+          "key": "DEMO-112",
+          "fields": {
+            "summary": "Audit badge reader logs",
+            "status": { "name": "To Do", "statusCategory": { "key": "new" } },
+            "priority": { "name": "Low" },
+            "issuetype": { "name": "Task" }
+          }
+        }
+      }
+    ],
+    "attachment": [
+      {
+        "id": "10001",
+        "filename": "screenshot.png",
+        "mimeType": "image/png",
+        "size": 2048,
+        "created": "2026-01-11T00:00:00.000+0000",
+        "author": { "displayName": "Priya Shah", "accountId": "acc-priya" }
+      },
+      {
+        "id": "10002",
+        "filename": "logs.txt",
+        "mimeType": "text/plain",
+        "size": 4096,
+        "created": "2026-01-12T00:00:00.000+0000",
+        "author": { "displayName": "Dana Okafor", "accountId": "acc-dana" }
+      }
+    ],
+    "comment": {
+      "total": 3,
+      "comments": [
+        {
+          "id": "30001",
+          "author": { "displayName": "Dana Okafor", "accountId": "acc-dana" },
+          "created": "2026-01-11T09:00:00.000+0000",
+          "updated": "2026-01-11T09:00:00.000+0000",
+          "body": {
+            "type": "doc",
+            "version": 1,
+            "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Can confirm this happens after Wi-Fi drop." }] }]
+          }
+        },
+        {
+          "id": "30002",
+          "author": { "displayName": "Priya Shah", "accountId": "acc-priya" },
+          "created": "2026-01-12T09:00:00.000+0000",
+          "updated": "2026-01-12T09:00:00.000+0000",
+          "body": {
+            "type": "doc",
+            "version": 1,
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  { "type": "mention", "attrs": { "id": "acc-marcus", "text": "@Marcus Lee" } },
+                  { "type": "text", "text": " can you check the " },
+                  { "type": "text", "text": "retry config", "marks": [{ "type": "code" }] },
+                  { "type": "text", "text": "?" }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "30003",
+          "author": { "displayName": "Marcus Lee", "accountId": "acc-marcus" },
+          "created": "2026-01-13T09:00:00.000+0000",
+          "updated": "2026-01-13T09:00:00.000+0000",
+          "body": {
+            "type": "doc",
+            "version": 1,
+            "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "On it." }] }]
+          }
+        }
+      ]
+    },
+    "customfield_10020": [
+      { "id": 1, "name": "Platform Sprint 12", "state": "active" },
+      { "id": 2, "name": "Platform Sprint 13", "state": "future" }
+    ],
+    "customfield_10016": 5,
+    "customfield_10030": { "value": "Platform" },
+    "customfield_10008": "DEMO-100",
+    "customfield_10040": { "value": "Web", "child": { "value": "Dashboard" } },
+    "customfield_10050": [
+      { "displayName": "Yuki Tanaka", "accountId": "acc-yuki" },
+      { "displayName": "Ben Carter", "accountId": "acc-ben" }
+    ],
+    "customfield_10019": "0|i0010z:",
+    "customfield_10060": null,
+    "customfield_10000": "{}"
+  }
+}
